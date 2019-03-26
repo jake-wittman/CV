@@ -6,3 +6,4 @@ CV.run.xml
 .Rproj.user
 fonts
 awesome-cv.cls
+packrat/lib*/

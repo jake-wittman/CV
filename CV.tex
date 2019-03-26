@@ -1,0 +1,333 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{414141}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+ \definecolor{darktext}{HTML}{000000}
+ \definecolor{text}{HTML}{000000}
+ \definecolor{graytext}{HTML}{000000}
+ \definecolor{lighttext}{HTML}{000000}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Jacob Timothy Wittman}{}
+
+\position{PhD Student}
+\address{1980 Folwell Avenue, St.~Paul, MN}
+
+\mobile{319 651 9490}
+\email{\href{mailto:wittja01@gmail.com}{\nolinkurl{wittja01@gmail.com}}}
+\github{wittja01}
+\linkedin{wittja01}
+\twitter{wittja01}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+% Templates for detailed entries
+% Arguments: what when with where why
+\usepackage{etoolbox}
+\def\detaileditem#1#2#3#4#5{
+\cventry{#1}{#3}{#4}{#2}{\ifx#5\empty\else{\begin{cvitems}#5\end{cvitems}}\fi}}
+\def\detailedsection#1{\begin{cventries}#1\end{cventries}}
+
+% Templates for brief entries
+% Arguments: what when with
+\def\briefitem#1#2#3{\cvhonor{}{#1}{#3}{#2}}
+\def\briefsection#1{\begin{cvhonors}#1\end{cvhonors}}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+%%%% BIBLIOGRAPHY
+% Bibliography formatting
+
+\usepackage[sorting=ynt,citestyle=authoryear,bibstyle=authoryear-comp,defernumbers=true,maxnames=20,giveninits=true, bibencoding=utf8, terseinits=true, uniquename=init,dashed=false,doi=false,isbn=false,natbib=true,backend=biber]{biblatex}
+
+\DeclareFieldFormat{url}{\url{#1}}
+\DeclareFieldFormat[article]{pages}{#1}
+\DeclareFieldFormat[inproceedings]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[incollection]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+\DeclareFieldFormat[article]{title}{\MakeCapital{#1}}
+\DeclareFieldFormat[article]{url}{}
+\DeclareFieldFormat[inproceedings]{title}{#1}
+\DeclareFieldFormat{shorthandwidth}{#1}
+\DeclareFieldFormat{extradate}{}
+
+% No dot before number of articles
+\usepackage{xpatch}
+\xpatchbibmacro{volume+number+eid}{\setunit*{\adddot}}{}{}{}
+
+% Remove In: for an article.
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{%
+  \printtext{\bibstring{in}\intitlepunct}}}
+
+%\makeatletter
+%\DeclareDelimFormat[cbx@textcite]{nameyeardelim}{\addspace}
+%\makeatother
+
+\setlength{\bibitemsep}{1.8pt}
+\setlength{\bibhang}{.9cm}
+%\renewcommand{\bibfont}{\fontsize{12}{14}}
+
+\renewcommand*{\bibitem}{\addtocounter{papers}{1}\item \mbox{}\hskip-0.9cm\hbox to 0.9cm{\hfill\arabic{papers}.~\,}}
+\defbibenvironment{bibliography}
+{\list{}
+  {\setlength{\leftmargin}{\bibhang}%
+   \setlength{\itemsep}{\bibitemsep}%
+   \setlength{\parsep}{\bibparsep}}}
+{\endlist}
+{\bibitem}
+
+\renewcommand{\bibfont}{\normalfont\fontsize{10}{12.4}\selectfont}
+% Counters for keeping track of papers
+\newcounter{papers}
+
+\DeclareSortingScheme{ty}{
+  \sort{
+    \field{title}
+  }
+  \sort{
+    \field{year}
+  }
+}
+\DeclareBibliographyCategory{bibPublications}
+\bibliography{bibs/publications.bib}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {March, 2019}
+  {Jacob Timothy Wittman~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\section{Education}\label{education}
+
+\detailedsection{\detaileditem
+{PhD Entomology, Concetration: Forest Entomology, Minor: Biostatistics}
+{Sept. 2018 - 2022 (anticipated)}
+{University of Minnesota}
+{St. Paul, MN}
+{\item{Dissertation Topic: Emerald ash borer biocontrol modeling}}\detaileditem
+{MSc Entomology, Concetration: Forest Entomology}
+{Jun. 2016 - Sept. 2018}
+{University of Minnesota}
+{St. Paul, MN}
+{\item{GPA of 4.00}\item{Thesis Title: Effects of host type and food deprivation on the movement behavior of late-instar larvae of gypsy moth Lymantria dispar (Lepidoptera: Erebidae)}}\detaileditem
+{Teaching License in Secondary Education Biology}
+{Sept. 2012 - Dec. 2013}
+{Luther College}
+{Decorah, IA}
+{\item{GPA of 4.00}}\detaileditem
+{BA in Biology \& Environmental Studies}
+{Sept. 2008 - May 2012}
+{Luther College}
+{Decorah, IA}
+{\item{GPA of 3.68}}}
+
+\section{Teaching Experience}\label{teaching-experience}
+
+\detailedsection{\detaileditem
+{Teaching Associate}
+{S1 2016 - Present}
+{Monash University}
+{Caulfield \& Clayton, Australia}
+{\item{Advanced statistical modelling (ETC3580)}\item{Business forecasting (ETF3231/ETF5231)}\item{Mathematics for business (ETF2700)}\item{Data modelling and computing (ETC1010)}}\detaileditem
+{Research Assistant}
+{Jan. 2016 - Present}
+{Monash University}
+{Clayton, Australia}
+{\item{Supervisors include Rob Hyndman, Dianne Cook, and George Athanasopoulos.}\item{Consulting projects with DiabetesLab, Tennis Australia, Monash University and Huawei.}\item{Contributed to the development of numerous open source R packages.}}\detaileditem
+{Volunteer}
+{Feb. 2013 - Nov. 2016}
+{Rotaract}
+{Monash, Australia}
+{\item{Development and maintenance of club website and online services.}\item{Organising and hosting fundraisers.}}\detaileditem
+{Student Ambassador}
+{Feb. 2015 - Nov. 2015}
+{Google}
+{Sydney, Australia}
+{\item{Supported Google's presence on campus with events and media.}}\detaileditem
+{Data Mining (Internship)}
+{Feb. 2015 - Mar. 2015}
+{iSelect}
+{Cheltenham, Australia}
+{\item{Improved business data and issue reporting with interactive visualisations, and model-based anomaly detection.}}\detaileditem
+{Fresh Produce}
+{Oct. 2010 - Nov. 2015}
+{Coles}
+{Rowville, Australia}
+{\item{Food preparation \& display, first aid, staff training and customer assistance.}}}
+
+\newpage
+
+\defbibheading{bibPublications}{\subsection{Publications}}
+\addtocategory{bibPublications}{Wittman2019,
+Wittman2018,
+Wittman2017,
+Wittman2013}
+\newrefcontext[sorting=ynt]\setcounter{papers}{0}\pagebreak[3]
+\printbibliography[category=bibPublications,heading=bibPublications]\setcounter{papers}{0}
+
+\nocite{Wittman2019,
+Wittman2018,
+Wittman2017,
+Wittman2013}
+
+\subsection{Presentations}\label{presentations}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Wittman, JT}, and BH Aukema (2018). \emph{Effects of host
+  foliage on the movement behavior of larvae of gypsy moth (Lymantria
+  dispar).} Oral presentation at the Entomological Society of America,
+  Annual Meeting, November 11 -- 14, Vancouver, British Columbia,
+  Canada.
+\item
+  \textbf{Wittman, JT}, PH Chaloux, SW Myers, and BH Aukema (2018).
+  \emph{Keeping gypsy moth where they are: Investigating how far gypsy
+  moth larvae can move.} Oral presentation at the Western Forest Insect
+  Work Conference, March 26 - 29, Denver, CO.
+\item
+  \textbf{Wittman, JT}, PH Chaloux, SW Myers, and BH Aukema (2018).
+  \emph{Developing science to support practice: Determining distances
+  required to protect log decks from wandering gypsy moth larvae.}
+  Poster presentation at the USDA Interagency Forum on Invasive Species,
+  January 9 -- 12, Annapolis, MD.
+\item
+  \textbf{Wittman, JT}, SW Myers, PH Chaloux, and BH Aukema (2017).
+  \emph{Evaluating gypsy moth (Lymantria dispar) larval movement
+  potential and effective barriers limiting their movement.} Oral
+  presentation at the Entomological Society of America, Annual Meeting,
+  November 5 -- 8, Denver, CO.
+\item
+  \textbf{Wittman, JT}, SW Myers, PH Chaloux, and BH Aukema (2017).
+  \emph{Supporting policy with science: Are buffer zones around wood
+  products effective at preventing the spread of gypsy moth (Lymantria
+  dispar).} Oral presentation at the International Union of Forest
+  Research Organizations - Forest Insects and Pathogens in a Changing
+  Environment: Ecology, Monitoring, and Genetics, September 11 -- 15,
+  Thessaloniki, Greece.
+\item
+  \textbf{Wittman, JT}, PH Chaloux, D Lance, SW Myers, and BH Aukema
+  (2016). \emph{Evaluating the effectiveness of buffer zone practices in
+  preventing the spread of gypsy moth (Lymantria dispar).} Oral
+  presentation at the Gypsy Moth Program Advisory Committee Meeting,
+  November 22, St.~Paul, MN.
+\item
+  \textbf{Wittman, JT}, PH Chaloux, D Lance, SW Myers, and BH Aukema
+  (2016). \emph{I Would Walk 500 Miles: Orientation and Movement
+  Potential of Gypsy Moth Larvae in a Simulated Lumber Yard.} Oral
+  presentation at the Annual Gypsy Moth Review, October 25 -- 27,
+  Columbus, OH.
+\item
+  Nicoll, RA, \textbf{JT Wittman}, SW Myers, D Lance, and BH Aukema
+  (2016). \emph{Do buffer zones prevent the spread of gypsy moth
+  (\emph{Lymantria dispar}) larvae?} Poster presentation at the Upper
+  Midwest Invasive Species Conference, October 16-19, La Crosse, WI.
+\item
+  \textbf{Wittman, J.}, E Stivers, and KJ Larsen (2016). \emph{Bees,
+  Butterflies and Beetles: A Comparison of Remnant and Planted Prairies
+  in Northeast Iowa.} Oral presentation at the Day of Insects, April 9,
+  Ames, IA.
+\item
+  Stivers, E, \textbf{JT Wittman}, and KJ Larsen (2015). \emph{A
+  comparison of adult butterfly communities on remnant and planted
+  prairies in Northeast Iowa.} Poster presentation at Entomological
+  Society of America, 63rd Annual Meeting. November 14 -- 18,
+  Minneapolis, MN.
+\item
+  \textbf{Wittman, JT}, A Weckwerth, and J Enos-Berlage (2012).
+  \emph{Exploring the Dry Run Creek Watershed: Molecules, Microbes, and
+  Macroinvertebrates.} Poster presentation at the Iowa Water Conference.
+  March.
+\end{itemize}
+
+\section{Awards \& Achievements}\label{awards-achievements}
+
+\subsection{Awards}\label{awards}
+
+\briefsection{\briefitem{Commerce Dean's Honour}{2017}{Monash}\briefitem{Commerce Dean's Commendation}{2016}{Monash}\briefitem{Science Dean’s List}{2014-2016}{Monash}\briefitem{International Institute of Forecasters Award}{2014}{IIF}\briefitem{Rotary Youth Leadership Award}{2013}{Rotary}}
+
+\subsection{Scholarships}\label{scholarships}
+
+\briefsection{\briefitem{Econometrics Honours Memorial Scholarship}{2017}{Monash}\briefitem{Monash Community Leaders Scholarship}{2015 \& 2016}{Monash}\briefitem{Mitcham Rotary Scholarship}{2011 \& 2012}{Rotary}}
+
+\subsection{Competitions}\label{competitions}
+
+\briefsection{\briefitem{UseR! 2018 Datathon Champion}{2018}{UseR!}\briefitem{RMIT SBITL Analytics Competition Champion}{2017}{RMIT}\briefitem{RMIT SBITL Analytics Competition Champion}{2016}{RMIT}}
+
+\end{document}
