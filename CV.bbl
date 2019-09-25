@@ -1,0 +1,607 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{Stivers2019}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,uniquepart=given,hash=fe615ab1fa800b99bd20c3b3374dd8cb}{%
+           family={Stivers},
+           familyi={S\bibinitperiod},
+           given={Emma\bibnamedelima K.},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=ebce9da3b1ddc80ba8a57ea278c2ed80}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Kirk\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{1009af99890f45129048ae2914356be1}
+      \strng{fullhash}{1009af99890f45129048ae2914356be1}
+      \strng{bibnamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authorbibnamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authornamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authorfullhash}{1009af99890f45129048ae2914356be1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Lepidopterists' Society}
+      \field{title}{{A comparison of adult butterfly communities on remnant and planted prairies in northeast Iowa}}
+      \field{volume}{In Press}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{Wittman2018}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=0ab604a13d92f4bee069b440b071e1b9}{%
+           family={Aukema},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{fullhash}{720084a8b9803def42cc16ed4c286845}
+      \strng{bibnamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authorbibnamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authornamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authorfullhash}{720084a8b9803def42cc16ed4c286845}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Insect Behavior}
+      \field{title}{{Foliage type and availability alters the movement behavior of late instar European gypsy moth Lymantria dispar (Lepidoptera: Erebidae)}}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1007/s10905-019-09711-2
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/s10905-019-09711-2
+      \endverb
+    \endentry
+    \entry{Wittman2019}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=03ec6f1ee01ebfb14638b6c864d70ec4}{%
+           family={Nicoll},
+           familyi={N\bibinitperiod},
+           given={Rachael\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4fa73bf95a7106d0aeda26743608d10b}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Scott\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=433a43c6adef1fb8b1c0f0a6ab131f24}{%
+           family={Chaloux},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0ab604a13d92f4bee069b440b071e1b9}{%
+           family={Aukema},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{fullhash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{bibnamehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{authorbibnamehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{authornamehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{authorfullhash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Entomology}
+      \field{title}{{Characterizing and simulating the movement of late instar gypsy moth (Lepidoptera: Erebidae) to evaluate the effectiveness of regulatory practices.}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman et al. - 2019 - Characterizing and simulating the movement of late instar gypsy moth (Lepidoptera Erebidae) to evaluate the effe.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/ee/advance-article/doi/10.1093/ee/nvz025/5429494
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/ee/advance-article/doi/10.1093/ee/nvz025/5429494
+      \endverb
+    \endentry
+    \entry{Wittman2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,uniquepart=given,hash=e5c167f1686cca1a17ada242a11f0a63}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=aa789c864d75e3c26716bc6ec910d3d7}{%
+           family={Stivers},
+           familyi={S\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=69b29604aa7d6aa55f4132e145e4b234}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Kirk},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{fullhash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{bibnamehash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{authorbibnamehash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{authornamehash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{authorfullhash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0024-0966}
+      \field{journaltitle}{Journal of the Lepidopterists' Society}
+      \field{number}{2}
+      \field{title}{{Butterfly Surveys are Impacted by Time of Day}}
+      \field{volume}{71}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{125\bibrangedash 129}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.18473/lepi.71i2.a9
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman, Stivers, Larsen - 2017 - Butterfly Surveys are Impacted by Time of Day.pdf:pdf
+      \endverb
+      \keyw{Decorah,Iowa,diurnal variation,published,time of day,unified butterfly recorder}
+    \endentry
+    \entry{Wittman2013}{article}{}
+      \name{author}{10}{}{%
+        {{uniquename=1,uniquepart=given,hash=e5c167f1686cca1a17ada242a11f0a63}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=8b7f8b15e6647e3314d899f3b8151fec}{%
+           family={Weckwerth},
+           familyi={W\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=079c3fdabb0bda6addc6ab26eac87aa1}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Chelsea},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=057c0db3acd107a7f7da18cd39ba0c04}{%
+           family={Heyer},
+           familyi={H\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b6dae7c28037c1fcbe559be5eb66fe91}{%
+           family={Seibert},
+           familyi={S\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9995e266e477eff53df0dbb34397c29f}{%
+           family={Kuennen},
+           familyi={K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=35bd228e6018025338c5765d333f5fc8}{%
+           family={Ingels},
+           familyi={I\bibinitperiod},
+           given={Chad},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4e0c1fd4ca45742f77e3e16f12708f4c}{%
+           family={Seigley},
+           familyi={S\bibinitperiod},
+           given={Lynette},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=69b29604aa7d6aa55f4132e145e4b234}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Kirk},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=abf581fed8d29e0570bc868fcc82ebd5}{%
+           family={Enos-Berlage},
+           familyi={E\bibinithyphendelim B\bibinitperiod},
+           given={Jodi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{fullhash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{bibnamehash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{authorbibnamehash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{authornamehash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{authorfullhash}{2fd84f2068b045fa9f7433796822414b}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pathogens are the number one cause of impairments of assessed rivers and streams in the USA and pose a significant human health hazard. The Dry Run Creek Watershed in Northeast Iowa has been designated as impaired by the State of Iowa because of high levels of Escherichia coli bacteria. To investigate the nature of this impairment, land use and stream bank assessments were coupled with comprehensive water quality monitoring. Physical, chemical, and biological parameters were measured at 13 different sites in the watershed, including pH, temperature, conductivity, dissolved oxygen, turbidity, total Kjeldahl nitrogen, ammonia-N, nitrate + nitrite-N, total phosphorus, and E. coli. In addition, benthic macroinvertebrate communities were analyzed at seven sites, and optical brightener tests were performed late in the season. Results identified segments of the watershed that were more prominent contributors of E. coli, and correlations were observed between levels of E. coli and several chemical parameters, including ammonia-N, total Kjeldahl nitrogen, and total phosphorus. Interestingly, distinct sites emerged as more prominent contributors of these elements during rain vs. non-rain events, suggesting different types of sources. Both the amount of rainfall and the time elapsed between the rain event and the sampling influenced E. coli levels during wet weather conditions. Nitrate + nitrite-N displayed a unique response to rain events compared with the other parameters, suggesting a different delivery route. Analyses of benthic macroinvertebrate communities were consistent with pollution trends. Collectively, these data suggest distinct agriculturally related E. coli contributions, as well as specific areas and practices for water quality improvement strategies. This study can serve as a resource for evaluating agricultural watersheds that are impaired for bacteria.}
+      \field{issn}{01676369}
+      \field{journaltitle}{Environmental Monitoring and Assessment}
+      \field{number}{12}
+      \field{title}{{Evaluation of land use and water quality in an agricultural watershed in the USA indicates multiple sources of bacterial impairment}}
+      \field{volume}{185}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{10395\bibrangedash 10420}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s10661-013-3340-y
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman et al. - 2013 - Evaluation of land use and water quality in an agricultural watershed in the USA indicates multiple sources of b.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10661-013-3340-y
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10661-013-3340-y
+      \endverb
+      \keyw{Benthic macroinvertebrates,E. coli,Livestock,Nitrogen,Phosphorus,Water quality,published}
+    \endentry
+  \enddatalist
+  \datalist[entry]{ynt/global//global/global}
+    \entry{Wittman2013}{article}{}
+      \name{author}{10}{}{%
+        {{uniquename=1,uniquepart=given,hash=e5c167f1686cca1a17ada242a11f0a63}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=8b7f8b15e6647e3314d899f3b8151fec}{%
+           family={Weckwerth},
+           familyi={W\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=079c3fdabb0bda6addc6ab26eac87aa1}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Chelsea},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=057c0db3acd107a7f7da18cd39ba0c04}{%
+           family={Heyer},
+           familyi={H\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b6dae7c28037c1fcbe559be5eb66fe91}{%
+           family={Seibert},
+           familyi={S\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9995e266e477eff53df0dbb34397c29f}{%
+           family={Kuennen},
+           familyi={K\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=35bd228e6018025338c5765d333f5fc8}{%
+           family={Ingels},
+           familyi={I\bibinitperiod},
+           given={Chad},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4e0c1fd4ca45742f77e3e16f12708f4c}{%
+           family={Seigley},
+           familyi={S\bibinitperiod},
+           given={Lynette},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=1,uniquepart=given,hash=69b29604aa7d6aa55f4132e145e4b234}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Kirk},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=abf581fed8d29e0570bc868fcc82ebd5}{%
+           family={Enos-Berlage},
+           familyi={E\bibinithyphendelim B\bibinitperiod},
+           given={Jodi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{fullhash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{bibnamehash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{authorbibnamehash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{authornamehash}{2fd84f2068b045fa9f7433796822414b}
+      \strng{authorfullhash}{2fd84f2068b045fa9f7433796822414b}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pathogens are the number one cause of impairments of assessed rivers and streams in the USA and pose a significant human health hazard. The Dry Run Creek Watershed in Northeast Iowa has been designated as impaired by the State of Iowa because of high levels of Escherichia coli bacteria. To investigate the nature of this impairment, land use and stream bank assessments were coupled with comprehensive water quality monitoring. Physical, chemical, and biological parameters were measured at 13 different sites in the watershed, including pH, temperature, conductivity, dissolved oxygen, turbidity, total Kjeldahl nitrogen, ammonia-N, nitrate + nitrite-N, total phosphorus, and E. coli. In addition, benthic macroinvertebrate communities were analyzed at seven sites, and optical brightener tests were performed late in the season. Results identified segments of the watershed that were more prominent contributors of E. coli, and correlations were observed between levels of E. coli and several chemical parameters, including ammonia-N, total Kjeldahl nitrogen, and total phosphorus. Interestingly, distinct sites emerged as more prominent contributors of these elements during rain vs. non-rain events, suggesting different types of sources. Both the amount of rainfall and the time elapsed between the rain event and the sampling influenced E. coli levels during wet weather conditions. Nitrate + nitrite-N displayed a unique response to rain events compared with the other parameters, suggesting a different delivery route. Analyses of benthic macroinvertebrate communities were consistent with pollution trends. Collectively, these data suggest distinct agriculturally related E. coli contributions, as well as specific areas and practices for water quality improvement strategies. This study can serve as a resource for evaluating agricultural watersheds that are impaired for bacteria.}
+      \field{issn}{01676369}
+      \field{journaltitle}{Environmental Monitoring and Assessment}
+      \field{number}{12}
+      \field{title}{{Evaluation of land use and water quality in an agricultural watershed in the USA indicates multiple sources of bacterial impairment}}
+      \field{volume}{185}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{10395\bibrangedash 10420}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s10661-013-3340-y
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman et al. - 2013 - Evaluation of land use and water quality in an agricultural watershed in the USA indicates multiple sources of b.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10661-013-3340-y
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10661-013-3340-y
+      \endverb
+      \keyw{Benthic macroinvertebrates,E. coli,Livestock,Nitrogen,Phosphorus,Water quality,published}
+    \endentry
+    \entry{Wittman2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,uniquepart=given,hash=e5c167f1686cca1a17ada242a11f0a63}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=aa789c864d75e3c26716bc6ec910d3d7}{%
+           family={Stivers},
+           familyi={S\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=69b29604aa7d6aa55f4132e145e4b234}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Kirk},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{fullhash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{bibnamehash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{authorbibnamehash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{authornamehash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \strng{authorfullhash}{6464de9b80792ad0a63d73384e0c0ea6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0024-0966}
+      \field{journaltitle}{Journal of the Lepidopterists' Society}
+      \field{number}{2}
+      \field{title}{{Butterfly Surveys are Impacted by Time of Day}}
+      \field{volume}{71}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{125\bibrangedash 129}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.18473/lepi.71i2.a9
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman, Stivers, Larsen - 2017 - Butterfly Surveys are Impacted by Time of Day.pdf:pdf
+      \endverb
+      \keyw{Decorah,Iowa,diurnal variation,published,time of day,unified butterfly recorder}
+    \endentry
+    \entry{Stivers2019}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,uniquepart=given,hash=fe615ab1fa800b99bd20c3b3374dd8cb}{%
+           family={Stivers},
+           familyi={S\bibinitperiod},
+           given={Emma\bibnamedelima K.},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=1,uniquepart=given,hash=ebce9da3b1ddc80ba8a57ea278c2ed80}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Kirk\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{1009af99890f45129048ae2914356be1}
+      \strng{fullhash}{1009af99890f45129048ae2914356be1}
+      \strng{bibnamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authorbibnamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authornamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authorfullhash}{1009af99890f45129048ae2914356be1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Lepidopterists' Society}
+      \field{title}{{A comparison of adult butterfly communities on remnant and planted prairies in northeast Iowa}}
+      \field{volume}{In Press}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{Wittman2018}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=0ab604a13d92f4bee069b440b071e1b9}{%
+           family={Aukema},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{fullhash}{720084a8b9803def42cc16ed4c286845}
+      \strng{bibnamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authorbibnamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authornamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authorfullhash}{720084a8b9803def42cc16ed4c286845}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Insect Behavior}
+      \field{title}{{Foliage type and availability alters the movement behavior of late instar European gypsy moth Lymantria dispar (Lepidoptera: Erebidae)}}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1007/s10905-019-09711-2
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/s10905-019-09711-2
+      \endverb
+    \endentry
+    \entry{Wittman2019}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=03ec6f1ee01ebfb14638b6c864d70ec4}{%
+           family={Nicoll},
+           familyi={N\bibinitperiod},
+           given={Rachael\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4fa73bf95a7106d0aeda26743608d10b}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Scott\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=433a43c6adef1fb8b1c0f0a6ab131f24}{%
+           family={Chaloux},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0ab604a13d92f4bee069b440b071e1b9}{%
+           family={Aukema},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{fullhash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{bibnamehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{authorbibnamehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{authornamehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{authorfullhash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Entomology}
+      \field{title}{{Characterizing and simulating the movement of late instar gypsy moth (Lepidoptera: Erebidae) to evaluate the effectiveness of regulatory practices.}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman et al. - 2019 - Characterizing and simulating the movement of late instar gypsy moth (Lepidoptera Erebidae) to evaluate the effe.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/ee/advance-article/doi/10.1093/ee/nvz025/5429494
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/ee/advance-article/doi/10.1093/ee/nvz025/5429494
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
