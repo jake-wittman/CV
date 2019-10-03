@@ -35,6 +35,9 @@ knitr::opts_chunk$set(echo = FALSE)
   # - Update Stivers et al. once published
   # - ESA, Non-thesis seminar, AGMR 2019
   # - If funded, Farm Bill trapping grant
+
+# Adjusts to .tex
+  # - Add `\\` (without `) after each \detailedentry but only if they DON'T have a \empty preceeding them to fix the spacing issues
 ```
 
 
@@ -43,7 +46,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "PhD Entomology, Concetration: Forest Entomology, Minor: Biostatistics", "University of Minnesota", "St. Paul, MN", "Sept. 2018 - 2022 (anticipated)", "Dissertation Topic: Emerald ash borer biocontrol modeling",
+  "PhD Entomology, Concentration: Forest Entomology, Minor: Biostatistics", "University of Minnesota", "St. Paul, MN", "Sept. 2018 - 2022 (anticipated)", "Dissertation Topic: Emerald ash borer biocontrol modeling \n",
   "MSc Entomology, Concetration: Forest Entomology", "University of Minnesota", "St. Paul, MN", "Jun. 2016 - Sept. 2018", "GPA of 4.00",
   "MSc Entomology, Concetration: Forest Entomology", "University of Minnesota", "St. Paul, MN", "Jun. 2016 - Sept. 2018", "Thesis Title: Effects of host type and food deprivation on the movement behavior of late-instar larvae of gypsy moth Lymantria dispar (Lepidoptera: Erebidae)",
   "Teaching License in Secondary Education Biology", "Luther College", "Decorah, IA", "Sept. 2012 - Dec. 2013", "GPA of 4.00",
@@ -51,6 +54,32 @@ tribble(
 ) %>% 
   detailed_entries(degree, dates, uni, loc, details)
 ```
+
+# Publications
+
+```{r pubs}
+bibliography_entries("bibs/publications.bib") %>%
+  filter(bibtype == "Article") %>% 
+  arrange(desc(year), desc(`mendeley-tags`))
+  
+```
+
+
+
+# Presentations
+
+  1. Wittman, JT, JJ Duan, RC Venette, and BH Aukema (2019). _Effect of cooling rate on survival of **Spathius galinae** when exposed to sub-zero temperatures._ Oral presentation at the North Central Forest Pest Workshop, September 23 - 26, Lisle, Illinois.
+  2. Wittman, JT, and BH Aukema (2018). _Effects of host foliage on the movement behavior of larvae of gypsy moth (Lymantria dispar)._ Oral presentation at the Entomological Society of America, Annual Meeting, November 11 – 14, Vancouver, British Columbia, Canada.
+  3. Wittman, JT, PH Chaloux, SW Myers, and BH Aukema (2018). _Keeping gypsy moth where they are: Investigating how far gypsy moth larvae can move._ Oral presentation at the Western Forest Insect Work Conference, March 26 - 29, Denver, CO.
+  4. Wittman, JT, PH Chaloux, SW Myers, and BH Aukema (2018). _Developing science to support practice: Determining distances required to protect log decks from wandering gypsy moth larvae._ Poster presentation at the USDA Interagency Forum on Invasive Species, January 9 – 12, Annapolis, MD.
+  5. Wittman, JT, SW Myers, PH Chaloux, and BH Aukema (2017). _Evaluating gypsy moth (Lymantria dispar) larval movement potential and effective barriers limiting their movement._ Oral presentation at the Entomological Society of America, Annual Meeting, November 5 – 8, Denver, CO.
+  6. Wittman, JT, SW Myers, PH Chaloux, and BH Aukema (2017). _Supporting policy with science: Are buffer zones around wood products effective at preventing the spread of gypsy moth (Lymantria dispar)._ Oral presentation at the International Union of Forest Research Organizations - Forest Insects and Pathogens in a Changing Environment: Ecology, Monitoring, and Genetics, September 11 – 15, Thessaloniki, Greece.
+  7. Wittman, JT, PH Chaloux, D Lance, SW Myers, and BH Aukema (2016). _Evaluating the effectiveness of buffer zone practices in preventing the spread of gypsy moth (Lymantria dispar)._ Oral presentation at the Gypsy Moth Program Advisory Committee Meeting, November 22, St. Paul, MN.
+  8. Wittman, JT, PH Chaloux, D Lance, SW Myers, and BH Aukema (2016). _I Would Walk 500 Miles: Orientation and Movement Potential of Gypsy Moth Larvae in a Simulated Lumber Yard._ Oral presentation at the Annual Gypsy Moth Review, October 25 – 27, Columbus, OH.
+  9. Nicoll, RA, JT Wittman, SW Myers, D Lance, and BH Aukema (2016). _Do buffer zones prevent the spread of gypsy moth (_Lymantria dispar_) larvae?_ Poster presentation at the Upper Midwest Invasive Species Conference, October 16-19, La Crosse, WI.
+  10. Wittman, J., E Stivers, and KJ Larsen (2016). _Bees, Butterflies and Beetles: A Comparison of Remnant and Planted Prairies in Northeast Iowa._ Oral presentation at the Day of Insects, April 9, Ames, IA.
+  11. Stivers, E, JT Wittman, and KJ Larsen (2015). _A comparison of adult butterfly communities on remnant and planted prairies in Northeast Iowa._ Poster presentation at Entomological Society of America, 63rd Annual Meeting. November 14 – 18, Minneapolis, NM.
+  12. Wittman, JT, A Weckwerth, and J Enos-Berlage (2012). _Exploring the Dry Run Creek Watershed: Molecules, Microbes, and Macroinvertebrates._ Poster presentation at the Iowa Water Conference. March.
 
 # Teaching Experience
 ```{r}
@@ -71,42 +100,12 @@ tribble(
   detailed_entries(role, dates, company, loc, details)
 ```
 
-\newpage
-
-
-# Publications
-
-```{r pubs}
-bibliography_entries("bibs/publications.bib", 
-                     title = "",
-                     sorting = "ydnt") %>%
-  filter(bibtype == "Article") %>% 
-  arrange(desc(year))
-  
-```
-
-
-
-# Presentations
-
-  Wittman, JT, JJ Duan, RC Venette, and BH Aukema (2019). _Effect of cooling rate on survival of **Spathius galinae** when exposed to sub-zero temperatures._ Oral presentation at the North Central Forest Pest Workshop, September 23 - 26, Lisle, Illinois.
-  1. Wittman, JT, and BH Aukema (2018). _Effects of host foliage on the movement behavior of larvae of gypsy moth (Lymantria dispar)._ Oral presentation at the Entomological Society of America, Annual Meeting, November 11 – 14, Vancouver, British Columbia, Canada.
-  2. Wittman, JT, PH Chaloux, SW Myers, and BH Aukema (2018). _Keeping gypsy moth where they are: Investigating how far gypsy moth larvae can move._ Oral presentation at the Western Forest Insect Work Conference, March 26 - 29, Denver, CO.
-  3. Wittman, JT, PH Chaloux, SW Myers, and BH Aukema (2018). _Developing science to support practice: Determining distances required to protect log decks from wandering gypsy moth larvae._ Poster presentation at the USDA Interagency Forum on Invasive Species, January 9 – 12, Annapolis, MD.
-  4. Wittman, JT, SW Myers, PH Chaloux, and BH Aukema (2017). _Evaluating gypsy moth (Lymantria dispar) larval movement potential and effective barriers limiting their movement._ Oral presentation at the Entomological Society of America, Annual Meeting, November 5 – 8, Denver, CO.
-  5. Wittman, JT, SW Myers, PH Chaloux, and BH Aukema (2017). _Supporting policy with science: Are buffer zones around wood products effective at preventing the spread of gypsy moth (Lymantria dispar)._ Oral presentation at the International Union of Forest Research Organizations - Forest Insects and Pathogens in a Changing Environment: Ecology, Monitoring, and Genetics, September 11 – 15, Thessaloniki, Greece.
-  6. Wittman, JT, PH Chaloux, D Lance, SW Myers, and BH Aukema (2016). _Evaluating the effectiveness of buffer zone practices in preventing the spread of gypsy moth (Lymantria dispar)._ Oral presentation at the Gypsy Moth Program Advisory Committee Meeting, November 22, St. Paul, MN.
-  7. Wittman, JT, PH Chaloux, D Lance, SW Myers, and BH Aukema (2016). _I Would Walk 500 Miles: Orientation and Movement Potential of Gypsy Moth Larvae in a Simulated Lumber Yard._ Oral presentation at the Annual Gypsy Moth Review, October 25 – 27, Columbus, OH.
-  8. Nicoll, RA, JT Wittman, SW Myers, D Lance, and BH Aukema (2016). _Do buffer zones prevent the spread of gypsy moth (_Lymantria dispar_) larvae?_ Poster presentation at the Upper Midwest Invasive Species Conference, October 16-19, La Crosse, WI.
-  9. Wittman, J., E Stivers, and KJ Larsen (2016). _Bees, Butterflies and Beetles: A Comparison of Remnant and Planted Prairies in Northeast Iowa._ Oral presentation at the Day of Insects, April 9, Ames, IA.
-  10. Stivers, E, JT Wittman, and KJ Larsen (2015). _A comparison of adult butterfly communities on remnant and planted prairies in Northeast Iowa._ Poster presentation at Entomological Society of America, 63rd Annual Meeting. November 14 – 18, Minneapolis, MN.
-  11. Wittman, JT, A Weckwerth, and J Enos-Berlage (2012). _Exploring the Dry Run Creek Watershed: Molecules, Microbes, and Macroinvertebrates._ Poster presentation at the Iowa Water Conference. March.
 
 # Software 
 
 1. Wittman, JT and BH Aukema (2019). _servosphereR: Analyze data generated from SynTech Servosphere trials_. R software package. https://cran.r-project.org/web/packages/servosphereR/. 
 
-\newpage
+
 
 # Grants
 ```{r}
@@ -136,6 +135,7 @@ tribble(
 ```{r}
 tribble(
   ~ position, ~ group, ~ year, ~ city,
+  "Student Competition Organizer", "North Central Forest Pest Workshop", "2019", "Lisle, IL",
   "Volunteer", "Reproducible Research with R Workshop", "2019", "St. Paul, MN",
   "Grant Reviewer", "Council of Graduate Students, University of Minnesota", "2019", "St. Paul, MN",
   "President", "Frenatae (Entomology graduate student association, University of Minnesota)", "2019 - present", "St. Paul, MN",
