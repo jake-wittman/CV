@@ -1,0 +1,204 @@
+---
+title: "Lijia Yu's resume"
+author: Lijia Yu
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+---
+
+Aside
+================================================================================
+
+```{r, include = FALSE}
+# IDK what the link below does, maybe the fish image?
+```
+![Jacob T. Wittman](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width=80%}
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> wittja01@gmail.com
+- <i class="fa fa-github"></i> [github.com/wittja01](https://github.com/wittja01)
+- <i class="fa fa-phone"></i> +1 319-651-9490
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Education
+- R
+- Statistical Analysis
+- Machine Learning
+- Data Visualization
+- R Shiny
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Jacob T. Wittman {#title}
+--------------------------------------------------------------------------------
+
+### Currently searching for a data science position
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Luther College
+
+B.A. Biology, Environmental Science (majors) & Secondary Education (minor)
+
+Decorah, IA
+
+2008 - 2012
+
+### University of Minnesota
+
+M.S. Entomology
+
+St. Paul, MN
+
+2016 - 2018
+
+Thesis Title: Effects of host type and food deprivation on the movement behavior of late-instar larvae of gypsy moth Lymantria dispar (Lepidoptera: Erebidae)
+
+### University of Minnesota
+
+Ph.D. Entomology (major) & Biostatistics (graduate minor)
+
+St. Paul, MN
+
+2018 - Present
+
+Thesis topic: Emerald ash borer spread and biological control
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Graduate Research Assistant
+
+University of Minnesota
+
+St. Paul, MN
+
+2016 - Present
+
+- Add stuff about what I did
+
+### Howard-Hughes Medical Institute Research Fellowship
+
+Luther College
+
+Decorah, IA
+
+2014
+
+- Write what I did
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### ENT 4251 Forest Entomology
+
+Guest Lecturer
+
+St. Paul, MN
+
+2019
+
+### ENT 1005 Insect Biology
+
+Teaching assistant for Insect Biology
+
+St. Paul, MN
+
+Aug. 2018 - Dec. 2018
+
+### Science Teacher
+
+DREAM Technical Academy
+
+- What did I do here
+
+Willmar, MN
+
+2014 - 2016
+
+### Tutor
+
+Huntington Learning Center
+
+- Tutored math and science for 7 - 12 grade
+
+Plymouth, MN
+
+Oct. 2013 - Aug. 2014
+
+### Long-term Substitute 
+
+Faribault High School
+
+- Taught grades 9 & 11
+
+Faribault, MN
+
+Feb. 2014 - April 2014
+
+### Student Teacher
+
+Edina High School
+
+- Taught high school biology and AP Biology
+
+Edina, MN
+
+Oct. 2013 - Dec. 2013
+
+### Student Teacher
+
+Stillwater Junior High School
+
+- Taught 7th grade life science
+
+Stillwater, MN
+
+Aug. 2013 - Oct. 2013
+
+
+
+Selected Publications and Posters {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.
+
+Poster for 2013 International Conference of Genomics
+
+Qingdao, China
+
+2014
+
+**Yu L**, Chen B, Zhang Z.
+
+### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
+
+J Cell Sci. 2016 May 15;129(10):2075-84.
+
+N/A
+
+2016 
+
+Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W. 
