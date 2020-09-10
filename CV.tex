@@ -16,8 +16,6 @@
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
-
-
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
@@ -79,8 +77,8 @@
 % Templates for detailed entries
 % Arguments: what when with where why
 \usepackage{etoolbox}
-\def\detaileditem#1#2#3#4#5{
-\cventry{#1}{#3}{#4}{#2}{\ifx#5\empty\else{\begin{cvitems}#5\end{cvitems}}\fi}}
+\def\detaileditem#1#2#3#4#5{%
+\cventry{#1}{#3}{#4}{#2}{\ifx#5\empty\else{\begin{cvitems}#5\end{cvitems}}\fi}\ifx#5\empty{\vspace{-4.0mm}}\else\fi}
 \def\detailedsection#1{\begin{cventries}#1\end{cventries}}
 
 % Templates for brief entries
@@ -141,7 +139,7 @@
 % Counters for keeping track of papers
 \newcounter{papers}
 
-\DeclareSortingScheme{ty}{
+\DeclareSortingTemplate{ty}{
   \sort{
     \field{title}
   }
@@ -149,8 +147,8 @@
     \field{year}
   }
 }
-\DeclareBibliographyCategory{bibRefereed journal papers}
-\bibliography{bibs/publications.bib}
+\DeclareBibliographyCategory{bib-C:/Users/wittm094/GoogleDrive/school_work/grad_school/CV/CV/bibs/publications.bib-3872946}
+\bibliography{C:/Users/wittm094/GoogleDrive/school_work/grad_school/CV/CV/bibs/publications.bib}
 
 \begin{document}
 
@@ -160,9 +158,10 @@
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
 \makecvfooter
-  {January, 2020}
-  {Jacob T. Wittman~~~·~~~Curriculum Vitae}
+  {September, 2020}
+    {Jacob T. Wittman~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
@@ -176,45 +175,29 @@
 \hypertarget{education}{%
 \section{Education}\label{education}}
 
-\detailedsection{\detaileditem
-{PhD Entomology, Concentration: Forest Entomology, Minor: Biostatistics}
-{Sept. 2018 - 2022 (anticipated)}
-{University of Minnesota}
-{St. Paul, MN}
-{\item{Dissertation Topic: Emerald ash borer biocontrol modeling 
-}\\}\detaileditem
-{MSc Entomology, Concetration: Forest Entomology}
-{Jun. 2016 - Sept. 2018}
-{University of Minnesota}
-{St. Paul, MN}
-{\item{GPA of 4.00}\item{Thesis Title: Effects of host type and food deprivation on the movement behavior of late-instar larvae of gypsy moth Lymantria dispar (Lepidoptera: Erebidae)}\\}\detaileditem
-{Teaching License in Secondary Education Biology}
-{Sept. 2012 - Dec. 2013}
-{Luther College}
-{Decorah, IA}
-{\item{GPA of 4.00}\\}\detaileditem
-{BA in Biology \& Environmental Studies}
-{Sept. 2008 - May 2012}
-{Luther College}
-{Decorah, IA}
-{\item{GPA of 3.68}}}
+\detailedsection{\detaileditem{PhD Entomology, Concentration: Forest Entomology, Minor: Biostatistics}{Sept. 2018 - 2022 (anticipated)}{University of Minnesota}{St. Paul, MN}{\item{GPA: 3.883}\item{Dissertation Topic: Emerald ash borer biocontrol modeling 
+}\\}\detaileditem{MSc Entomology, Concetration: Forest Entomology}{Jun. 2016 - Sept. 2018}{University of Minnesota}{St. Paul, MN}{\item{GPA: 4.00}\item{Thesis Title: Effects of host type and food deprivation on the movement behavior of late-instar larvae of gypsy moth Lymantria dispar (Lepidoptera: Erebidae)}\\}\detaileditem{Teaching License in Secondary Education Biology}{Sept. 2012 - Dec. 2013}{Luther College}{Decorah, IA}{\item{GPA: 4.00}\\}\detaileditem{BA in Biology \& Environmental Studies}{Sept. 2008 - May 2012}{Luther College}{Decorah, IA}{\item{GPA: 3.68}}}
 
 \hypertarget{publications}{%
 \section{Publications}\label{publications}}
 
-\defbibheading{bibRefereed journal papers}{\subsection{Refereed journal papers}}
-\addtocategory{bibRefereed journal papers}{Short,
-Wittman2019,
+\defbibheading{bib-C:/Users/wittm094/GoogleDrive/school_work/grad_school/CV/CV/bibs/publications.bib-3872946}{}
+\addtocategory{bib-C:/Users/wittm094/GoogleDrive/school_work/grad_school/CV/CV/bibs/publications.bib-3872946}{Hallinen2020,
+Wittman,
+Short,
 Stivers2019,
+Wittman2019,
 Wittman2018,
 Wittman2017,
 Wittman2013}
-\newrefcontext[sorting=ynt]\setcounter{papers}{0}\pagebreak[3]
-\printbibliography[category=bibRefereed journal papers,heading=bibRefereed journal papers]\setcounter{papers}{0}
+\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
+\printbibliography[category=bib-C:/Users/wittm094/GoogleDrive/school_work/grad_school/CV/CV/bibs/publications.bib-3872946,heading=none]\setcounter{papers}{0}
 
-\nocite{Short,
-Wittman2019,
+\nocite{Hallinen2020,
+Wittman,
+Short,
 Stivers2019,
+Wittman2019,
 Wittman2018,
 Wittman2017,
 Wittman2013}
@@ -278,47 +261,7 @@ Wittman2013}
 \hypertarget{teaching-experience}{%
 \section{Teaching Experience}\label{teaching-experience}}
 
-\detailedsection{\detaileditem
-{Teaching Assistant}
-{Jan. 2020 - May 2020}
-{University of Minnesota}
-{St. Paul, MN}
-{\item{Spatial and Temporal Analyses (ENT 5126)}\\}\detaileditem
-{Guest Lecturer}
-{Sept. 2019}
-{University of Minnesota}
-{St. Paul, MN}
-{\item{Forest Entomology (ENT 4251)}\\}\detaileditem
-{Teaching Assistant}
-{Sept. 2018 - Dec. 2018}
-{University of Minnesota}
-{St. Paul, MN}
-{\item{Insect Biology (ENT 1005)}\\}\detaileditem
-{Science Teacher}
-{Jun. 2014 - Jun. 2016}
-{DREAM Technical Academy}
-{Willmar, MN}
-{\item{Grades 7 - 12}\\}\detaileditem
-{Long-Term Substitute - Biology}
-{Feb. 2014 - Apr. 2014}
-{Faribault High School}
-{Faribault, MN}
-{\item{Biology (Grade 11)}\item{Integrated Life Science (Grade 9)}\\}\detaileditem
-{Tutor}
-{Oct. 2013 - Aug. 2014}
-{Huntington Learning Center}
-{Plymouth, MN}
-{\item{Science (Grades 6 - 12)}\item{Math (Grades 6 - 12)}\item{ACT (Grades 11 - 12)}\\}\detaileditem
-{Student Teacher}
-{Oct. 2013 - Dec. 2013}
-{Edina High School}
-{Edina, MN}
-{\item{Biology (Grade 11)}\item{AP Biology (Grade 12)}\\}\detaileditem
-{Student Teacher}
-{Aug. 2013 - Oct. 2013}
-{Stillwater Junior High}
-{Stillwater, MN}
-{\item{Life Sciences (Grade 7)}}}
+\detailedsection{\detaileditem{Guest Lecturer}{Feb. 2020}{University of Minnesota}{St. Paul, MN}{\item{Spatial and Temporal Analyses (ENT 5126)}\\}\detaileditem{Teaching Assistant}{Jan. 2020 - May 2020}{University of Minnesota}{St. Paul, MN}{\item{Spatial and Temporal Analyses (ENT 5126)}\\}\detaileditem{Guest Lecturer}{Sept. 2019}{University of Minnesota}{St. Paul, MN}{\item{Forest Entomology (ENT 4251)}\\}\detaileditem{Teaching Assistant}{Sept. 2018 - Dec. 2018}{University of Minnesota}{St. Paul, MN}{\item{Insect Biology (ENT 1005)}\\}\detaileditem{Science Teacher}{Jun. 2014 - Jun. 2016}{DREAM Technical Academy}{Willmar, MN}{\item{Grades 7 - 12}\\}\detaileditem{Long-Term Substitute - Biology}{Feb. 2014 - Apr. 2014}{Faribault High School}{Faribault, MN}{\item{Biology (Grade 11)}\item{Integrated Life Science (Grade 9)}\\}\detaileditem{Tutor}{Oct. 2013 - Aug. 2014}{Huntington Learning Center}{Plymouth, MN}{\item{Science (Grades 6 - 12)}\item{Math (Grades 6 - 12)}\item{ACT (Grades 11 - 12)}\\}\detaileditem{Student Teacher}{Oct. 2013 - Dec. 2013}{Edina High School}{Edina, MN}{\item{Biology (Grade 11)}\item{AP Biology (Grade 12)}\\}\detaileditem{Student Teacher}{Aug. 2013 - Oct. 2013}{Stillwater Junior High}{Stillwater, MN}{\item{Life Sciences (Grade 7)}}}
 
 \hypertarget{software}{%
 \section{Software}\label{software}}
@@ -333,77 +276,13 @@ Wittman2013}
 \hypertarget{grants-fellowships-honors}{%
 \section{Grants, Fellowships, \& Honors}\label{grants-fellowships-honors}}
 
-\detailedsection{\detaileditem
-{University of Minnesota}
-{2019}
-{Council of Graduate Students Travel Grant}
-{St. Paul, MN}
-{\item{\$205}\\}\detaileditem
-{Department of Entomology, University of Minnesota}
-{2018}
-{Chiang Travel Award}
-{St. Paul, MN}
-{\item{\$200}\\}\detaileditem
-{Minnesota Invasive Terrestrial Plant and Pest Center}
-{2018}
-{Characterizing dispersal of larval gypsy moth to improve quarantine regulations}
-{St. Paul, MN}
-{\item{\$35,000}\\}\detaileditem
-{Department of Entomology, University of Minnesota}
-{2017}
-{Chiang Travel Award}
-{St. Paul, MN}
-{\item{\$200}\\}\detaileditem
-{Department of Entomology, University of Minnesota}
-{2016 - 2017}
-{McLaughlin Gormley King (MGK) Fellowship}
-{St. Paul, MN}
-{\item{\$42,600}\\}\detaileditem
-{Luther College}
-{2012 - 2013}
-{Howard Hughes Medical Institute Teacher Scientist Fellowship}
-{Decorah, IA}
-{\item{\$12,500}}}
+\detailedsection{\detaileditem{Department of Entomology, University of Minnesota}{2020}{Marion Brooks-Wallace Graduate Fellowship}{St. Paul, MN}{\item{\$2000}\\}\detaileditem{University of Minnesota}{2019}{Council of Graduate Students Travel Grant}{St. Paul, MN}{\item{\$205}\\}\detaileditem{Department of Entomology, University of Minnesota}{2018}{Chiang Travel Award}{St. Paul, MN}{\item{\$200}\\}\detaileditem{Minnesota Invasive Terrestrial Plant and Pest Center}{2018}{Characterizing dispersal of larval gypsy moth to improve quarantine regulations}{St. Paul, MN}{\item{\$35,000}\\}\detaileditem{Department of Entomology, University of Minnesota}{2017}{Chiang Travel Award}{St. Paul, MN}{\item{\$200}\\}\detaileditem{Department of Entomology, University of Minnesota}{2016 - 2017}{McLaughlin Gormley King (MGK) Fellowship}{St. Paul, MN}{\item{\$42,600}\\}\detaileditem{Luther College}{2012 - 2013}{Howard Hughes Medical Institute Teacher Scientist Fellowship}{Decorah, IA}{\item{\$12,500}}}
 
+\newpage
 \hypertarget{service}{%
 \section{Service}\label{service}}
 
-\detailedsection{\detaileditem
-{Frenatae (Entomology graduate student association, University of Minnesota)}
-{2019 - present}
-{President}
-{St. Paul, MN}
-{\empty}\detaileditem
-{North Central Forest Pest Workshop}
-{2019}
-{Student Presentation Organizer}
-{Lisle, IL}
-{\empty}\detaileditem
-{Reproducible Research with R Workshop}
-{2019}
-{Volunteer}
-{St. Paul, MN}
-{\empty}\detaileditem
-{Council of Graduate Students, University of Minnesota}
-{2019}
-{Grant Reviewer}
-{St. Paul, MN}
-{\empty}\detaileditem
-{Frenatae (Entomology graduate student association, University of Minnesota)}
-{2018 - 2019}
-{Treasurer}
-{St. Paul, MN}
-{\empty}\detaileditem
-{Frenatae (Entomology graduate student association, University of Minnesota)}
-{2017 - 2018}
-{Insect Education Outreach Coordinator}
-{St. Paul, MN}
-{\empty}\detaileditem
-{Frenatae (Entomology graduate student association, University of Minnesota)}
-{2016 - 2017}
-{Council of Graduate Students Representative}
-{St. Paul, MN}
-{\empty}}
+\detailedsection{\detaileditem{Frenatae (Entomology graduate student association, University of Minnesota)}{2019 - present}{President}{St. Paul, MN}{\empty}\detaileditem{North Central Forest Pest Workshop}{2019}{Student Presentation Organizer}{Lisle, IL}{\empty}\detaileditem{Reproducible Research with R Workshop}{2019}{Volunteer}{St. Paul, MN}{\empty}\detaileditem{Frenatae (Entomology graduate student association, University of Minnesota)}{2018 - 2019}{Treasurer}{St. Paul, MN}{\empty}\detaileditem{Frenatae (Entomology graduate student association, University of Minnesota)}{2017 - 2018}{Insect Education Outreach Coordinator}{St. Paul, MN}{\empty}\detaileditem{Frenatae (Entomology graduate student association, University of Minnesota)}{2016 - 2017}{Council of Graduate Students Representative}{St. Paul, MN}{\empty}}
 
 \hypertarget{peer-review-service}{%
 \section{Peer Review Service}\label{peer-review-service}}

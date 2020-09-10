@@ -31,7 +31,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # end of the new line
 
 # Things to add
-  # - If funded, Farm Bill trapping grant
+  # - 
 
 # Adjusts to .tex
   # - Add `\\` (without `) after each \detaileditem full entry but only if they DON'T have a \empty preceeding them to fix the spacing issues. Do a  ctrl + f for "}\detaileditem" and replace with "\\}\detaileditem" so long as it isn't preceeded by \empty
@@ -43,13 +43,14 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+   "PhD Entomology, Concentration: Forest Entomology, Minor: Biostatistics", "University of Minnesota", "St. Paul, MN", "Sept. 2018 - 2022 (anticipated)", "GPA: 3.883",
   "PhD Entomology, Concentration: Forest Entomology, Minor: Biostatistics", "University of Minnesota", "St. Paul, MN", "Sept. 2018 - 2022 (anticipated)", "Dissertation Topic: Emerald ash borer biocontrol modeling \n",
   
-  "MSc Entomology, Concetration: Forest Entomology", "University of Minnesota", "St. Paul, MN", "Jun. 2016 - Sept. 2018", "GPA of 4.00",
+  "MSc Entomology, Concetration: Forest Entomology", "University of Minnesota", "St. Paul, MN", "Jun. 2016 - Sept. 2018", "GPA: 4.00",
   "MSc Entomology, Concetration: Forest Entomology", "University of Minnesota", "St. Paul, MN", "Jun. 2016 - Sept. 2018", "Thesis Title: Effects of host type and food deprivation on the movement behavior of late-instar larvae of gypsy moth Lymantria dispar (Lepidoptera: Erebidae)",
   
-  "Teaching License in Secondary Education Biology", "Luther College", "Decorah, IA", "Sept. 2012 - Dec. 2013", "GPA of 4.00",
-  "BA in Biology & Environmental Studies", "Luther College", "Decorah, IA", "Sept. 2008 - May 2012", "GPA of 3.68"
+  "Teaching License in Secondary Education Biology", "Luther College", "Decorah, IA", "Sept. 2012 - Dec. 2013", "GPA: 4.00",
+  "BA in Biology & Environmental Studies", "Luther College", "Decorah, IA", "Sept. 2008 - May 2012", "GPA: 3.68"
 ) %>% 
   detailed_entries(degree, dates, uni, loc, details)
 ```
@@ -57,9 +58,10 @@ tribble(
 # Publications
 
 ```{r pubs}
-bibliography_entries("bibs/publications.bib") %>%
-  filter(bibtype == "Article") %>% 
-  arrange(desc(year), desc(`mendeley-tags`))
+options(encoding = "UTF-8")
+bibliography_entries(here::here("bibs/publications.bib")) %>%
+  dplyr::filter(bibtype == "Article") %>% 
+  dplyr::arrange(desc(year), desc(`mendeley-tags`))
   
 ```
 
@@ -93,6 +95,8 @@ bibliography_entries("bibs/publications.bib") %>%
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Guest Lecturer", "University of Minnesota", "St. Paul, MN", "Feb. 2020", "Spatial and Temporal Analyses (ENT 5126)",
+  
   "Teaching Assistant", "University of Minnesota", "St. Paul, MN", "Jan. 2020 - May 2020", "Spatial and Temporal Analyses (ENT 5126)",
   
   "Guest Lecturer", "University of Minnesota", "St. Paul, MN", "Sept. 2019", "Forest Entomology (ENT 4251)",
@@ -131,6 +135,8 @@ tribble(
 ```{r}
 tribble(
   ~ scholarship, ~ from, ~ city, ~ year, ~ amount,
+  "Marion Brooks-Wallace Graduate Fellowship", "Department of Entomology, University of Minnesota", "St. Paul, MN", "2020", "$2000",
+  
   "Council of Graduate Students Travel Grant", "University of Minnesota", "St. Paul, MN", "2019", "$205",
   
   "Chiang Travel Award", "Department of Entomology, University of Minnesota", "St. Paul, MN", "2018", "$200",
@@ -156,8 +162,6 @@ tribble(
   "Student Presentation Organizer", "North Central Forest Pest Workshop", "2019", "Lisle, IL", 
   
   "Volunteer", "Reproducible Research with R Workshop", "2019", "St. Paul, MN", 
-  
-  "Grant Reviewer", "Council of Graduate Students, University of Minnesota", "2019", "St. Paul, MN", 
   
   "Treasurer", "Frenatae (Entomology graduate student association, University of Minnesota)", "2018 - 2019", "St. Paul, MN", 
   

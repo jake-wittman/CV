@@ -19,6 +19,92 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{Hallinen2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f77b978807eb1ce56dcb14c25a0bf98a}{%
+           family={Hallinen},
+           familyi={H\bibinitperiod},
+           given={Marie\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=0ab604a13d92f4bee069b440b071e1b9}{%
+           family={Aukema},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{fullhash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{bibnamehash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{authorbibnamehash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{authornamehash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{authorfullhash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Entomology (In review)}
+      \field{title}{{Factors associated with diversity and distribution of buprestid prey captured by foraging Cerceris fumipennis (Hymenoptera: Crabronidae)}}
+      \field{year}{2020}
+      \true{nocite}
+      \keyw{review}
+    \endentry
+    \entry{Wittman}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=0ab604a13d92f4bee069b440b071e1b9}{%
+           family={Aukema},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima H},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{fullhash}{720084a8b9803def42cc16ed4c286845}
+      \strng{bibnamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authorbibnamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authornamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authorfullhash}{720084a8b9803def42cc16ed4c286845}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Insect Science}
+      \field{number}{3}
+      \field{title}{{A guide and toolbox to replicability and open science in entomology}}
+      \field{volume}{20}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman, Aukema - 2020 - A guide and toolbox to replicability and open science in entomology(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/jisesa/ieaa036
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/jisesa/ieaa036
+      \endverb
+      \keyw{review}
+    \endentry
     \entry{Short}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=f3b4a7a52dbc1a21c23259a07420ed29}{%
@@ -64,21 +150,24 @@
       \strng{authorbibnamehash}{2c90fd5ca8a1d35c67e48d9090101e83}
       \strng{authornamehash}{2c90fd5ca8a1d35c67e48d9090101e83}
       \strng{authorfullhash}{2c90fd5ca8a1d35c67e48d9090101e83}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Agricultural and Forest Entomology}
       \field{title}{{Rail transport as a vector of emerald ash borer}}
-      \field{year}{2019}
+      \field{volume}{22}
+      \field{year}{2020}
       \true{nocite}
+      \field{pages}{92\bibrangedash 97}
+      \range{pages}{6}
       \verb{doi}
       \verb 10.1111/afe.12360
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Short et al. - 2019 - Rail transport as a vector of emerald ash borer.pdf:pdf
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Short et al. - 2020 - Rail transport as a vector of emerald ash borer.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/full/10.1111/afe.12360
@@ -86,7 +175,51 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/full/10.1111/afe.12360
       \endverb
-      \keyw{review}
+      \keyw{published}
+    \endentry
+    \entry{Stivers2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=fe615ab1fa800b99bd20c3b3374dd8cb}{%
+           family={Stivers},
+           familyi={S\bibinitperiod},
+           given={Emma\bibnamedelima K.},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=ebce9da3b1ddc80ba8a57ea278c2ed80}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Kirk\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{1009af99890f45129048ae2914356be1}
+      \strng{fullhash}{1009af99890f45129048ae2914356be1}
+      \strng{bibnamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authorbibnamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authornamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authorfullhash}{1009af99890f45129048ae2914356be1}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Lepidopterists' Society}
+      \field{number}{4}
+      \field{title}{{A comparison of adult butterfly communities on remnant and planted prairies in northeast Iowa}}
+      \field{volume}{73}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Stivers, Wittman, Larsen - 2019 - A comparison of adult butterfly communities on remnant and planted prairies in northeast Iowa.pdf:pdf
+      \endverb
+      \keyw{published}
     \endentry
     \entry{Wittman2019}{article}{}
       \name{author}{5}{}{%
@@ -127,13 +260,13 @@
       \strng{authorbibnamehash}{57a2b6f72c412bd28c15c25ece51d10f}
       \strng{authornamehash}{57a2b6f72c412bd28c15c25ece51d10f}
       \strng{authorfullhash}{57a2b6f72c412bd28c15c25ece51d10f}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The European gypsy moth, Lymantria dispar L., is an invasive insect in North America that feeds on over 300 species of trees and shrubs and occasionally causes extensive defoliation. One regulatory practice within quarantine zones to slow the spread of this insect recommends that wood products (e.g., logs, pulpwood) originating from quarantine areas are staged within 100 foot-radius buffer zones devoid of host vegetation before transport outside the quarantine boundary. Currently, there are little data underpinning the distance used. We conducted field experiments in Wisconsin to assess buffer zone efficacy in reducing risk of larval gypsy moth encroachment on wood staging areas. We released late-instar gypsy moth larvae in groups around the perimeter of a 100-ft radius zone and tracked their movements for 10-h periods using harmonic radar and tested whether host vegetation staged around the perimeter or food availability before release altered movement patterns. Three larvae moved over 300 ft in 10 h, but 93{\%} of larvae moved {<}100 ft total. The presence of host vegetation reduced the likelihood of larvae entering the buffer zone by 70{\%}. Food availability before release did not affect movement. Using these field data, we parameterized a Monte Carlo simulation model to evaluate risk of larvae crossing zones of different sizes. For zones {>}100 ft in radius, {<}4{\%} of larvae reached the center. This percentage decreased as zone size increased. Implications of these results for the regulatory practices of the gypsy moth quarantine are discussed.}
+      \field{abstract}{The European gypsy moth, Lymantria dispar L., is an invasive insect in North America that feeds on over 300 species of trees and shrubs and occasionally causes extensive defoliation. One regulatory practice within quarantine zones to slow the spread of this insect recommends that wood products (e.g., logs, pulpwood) originating from quarantine areas are staged within 100 foot-radius buffer zones devoid of host vegetation before transport outside the quarantine boundary. Currently, there are little data underpinning the distance used. We conducted field experiments in Wisconsin to assess buffer zone efficacy in reducing risk of larval gypsy moth encroachment on wood staging areas. We released late-instar gypsy moth larvae in groups around the perimeter of a 100-ft radius zone and tracked their movements for 10-h periods using harmonic radar and tested whether host vegetation staged around the perimeter or food availability before release altered movement patterns. Three larvae moved over 300 ft in 10 h, but 93{\%} of larvae moved <100 ft total. The presence of host vegetation reduced the likelihood of larvae entering the buffer zone by 70{\%}. Food availability before release did not affect movement. Using these field data, we parameterized a Monte Carlo simulation model to evaluate risk of larvae crossing zones of different sizes. For zones >100 ft in radius, <4{\%} of larvae reached the center. This percentage decreased as zone size increased. Implications of these results for the regulatory practices of the gypsy moth quarantine are discussed.}
       \field{issn}{0046-225X}
       \field{journaltitle}{Environmental Entomology}
       \field{number}{3}
@@ -157,47 +290,6 @@
       \endverb
       \keyw{published}
     \endentry
-    \entry{Stivers2019}{article}{}
-      \name{author}{3}{}{%
-        {{un=1,uniquepart=given,hash=fe615ab1fa800b99bd20c3b3374dd8cb}{%
-           family={Stivers},
-           familyi={S\bibinitperiod},
-           given={Emma\bibnamedelima K.},
-           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
-           family={Wittman},
-           familyi={W\bibinitperiod},
-           given={Jacob\bibnamedelima T.},
-           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=ebce9da3b1ddc80ba8a57ea278c2ed80}{%
-           family={Larsen},
-           familyi={L\bibinitperiod},
-           given={Kirk\bibnamedelima J.},
-           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{1009af99890f45129048ae2914356be1}
-      \strng{fullhash}{1009af99890f45129048ae2914356be1}
-      \strng{bibnamehash}{1009af99890f45129048ae2914356be1}
-      \strng{authorbibnamehash}{1009af99890f45129048ae2914356be1}
-      \strng{authornamehash}{1009af99890f45129048ae2914356be1}
-      \strng{authorfullhash}{1009af99890f45129048ae2914356be1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of the Lepidopterists' Society}
-      \field{number}{4}
-      \field{title}{{A comparison of adult butterfly communities on remnant and planted prairies in northeast Iowa}}
-      \field{volume}{73}
-      \field{year}{2019}
-      \true{nocite}
-      \keyw{published}
-    \endentry
     \entry{Wittman2018}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
@@ -219,8 +311,9 @@
       \strng{authorbibnamehash}{720084a8b9803def42cc16ed4c286845}
       \strng{authornamehash}{720084a8b9803def42cc16ed4c286845}
       \strng{authorfullhash}{720084a8b9803def42cc16ed4c286845}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -276,8 +369,8 @@
       \strng{authorbibnamehash}{6464de9b80792ad0a63d73384e0c0ea6}
       \strng{authornamehash}{6464de9b80792ad0a63d73384e0c0ea6}
       \strng{authorfullhash}{6464de9b80792ad0a63d73384e0c0ea6}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -371,8 +464,8 @@
       \strng{authorbibnamehash}{2fd84f2068b045fa9f7433796822414b}
       \strng{authornamehash}{2fd84f2068b045fa9f7433796822414b}
       \strng{authorfullhash}{2fd84f2068b045fa9f7433796822414b}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -555,6 +648,210 @@
       \endverb
       \keyw{Decorah,Iowa,diurnal variation,published,time of day,unified butterfly recorder}
     \endentry
+    \entry{Stivers2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=fe615ab1fa800b99bd20c3b3374dd8cb}{%
+           family={Stivers},
+           familyi={S\bibinitperiod},
+           given={Emma\bibnamedelima K.},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=ebce9da3b1ddc80ba8a57ea278c2ed80}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Kirk\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{1009af99890f45129048ae2914356be1}
+      \strng{fullhash}{1009af99890f45129048ae2914356be1}
+      \strng{bibnamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authorbibnamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authornamehash}{1009af99890f45129048ae2914356be1}
+      \strng{authorfullhash}{1009af99890f45129048ae2914356be1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Lepidopterists' Society}
+      \field{number}{4}
+      \field{title}{{A comparison of adult butterfly communities on remnant and planted prairies in northeast Iowa}}
+      \field{volume}{73}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Stivers, Wittman, Larsen - 2019 - A comparison of adult butterfly communities on remnant and planted prairies in northeast Iowa.pdf:pdf
+      \endverb
+      \keyw{published}
+    \endentry
+    \entry{Wittman2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=03ec6f1ee01ebfb14638b6c864d70ec4}{%
+           family={Nicoll},
+           familyi={N\bibinitperiod},
+           given={Rachael\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fa73bf95a7106d0aeda26743608d10b}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Scott\bibnamedelima W},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=433a43c6adef1fb8b1c0f0a6ab131f24}{%
+           family={Chaloux},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima H},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0ab604a13d92f4bee069b440b071e1b9}{%
+           family={Aukema},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima H},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{fullhash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{bibnamehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{authorbibnamehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{authornamehash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \strng{authorfullhash}{57a2b6f72c412bd28c15c25ece51d10f}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The European gypsy moth, Lymantria dispar L., is an invasive insect in North America that feeds on over 300 species of trees and shrubs and occasionally causes extensive defoliation. One regulatory practice within quarantine zones to slow the spread of this insect recommends that wood products (e.g., logs, pulpwood) originating from quarantine areas are staged within 100 foot-radius buffer zones devoid of host vegetation before transport outside the quarantine boundary. Currently, there are little data underpinning the distance used. We conducted field experiments in Wisconsin to assess buffer zone efficacy in reducing risk of larval gypsy moth encroachment on wood staging areas. We released late-instar gypsy moth larvae in groups around the perimeter of a 100-ft radius zone and tracked their movements for 10-h periods using harmonic radar and tested whether host vegetation staged around the perimeter or food availability before release altered movement patterns. Three larvae moved over 300 ft in 10 h, but 93{\%} of larvae moved <100 ft total. The presence of host vegetation reduced the likelihood of larvae entering the buffer zone by 70{\%}. Food availability before release did not affect movement. Using these field data, we parameterized a Monte Carlo simulation model to evaluate risk of larvae crossing zones of different sizes. For zones >100 ft in radius, <4{\%} of larvae reached the center. This percentage decreased as zone size increased. Implications of these results for the regulatory practices of the gypsy moth quarantine are discussed.}
+      \field{issn}{0046-225X}
+      \field{journaltitle}{Environmental Entomology}
+      \field{number}{3}
+      \field{title}{{Characterizing and Simulating the Movement of Late-Instar Gypsy Moth (Lepidoptera: Erebidae) to Evaluate the Effectiveness of Regulatory Practices}}
+      \field{volume}{48}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{496\bibrangedash 505}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1093/ee/nvz025
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman et al. - 2019 - Characterizing and Simulating the Movement of Late-Instar Gypsy Moth (Lepidoptera Erebidae) to Evaluate the E(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/ee/advance-article/doi/10.1093/ee/nvz025/5429494
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/ee/advance-article/doi/10.1093/ee/nvz025/5429494
+      \endverb
+      \keyw{published}
+    \endentry
+    \entry{Wittman2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=0ab604a13d92f4bee069b440b071e1b9}{%
+           family={Aukema},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{fullhash}{720084a8b9803def42cc16ed4c286845}
+      \strng{bibnamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authorbibnamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authornamehash}{720084a8b9803def42cc16ed4c286845}
+      \strng{authorfullhash}{720084a8b9803def42cc16ed4c286845}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The movement behavior ofinsects character- izes their ability to disperse, establish, compete, forage, seek mates, and ultimately reproduce. Understanding the movement of invasive insects is particularly impor- tant for developing management policies.We conducted laboratory experiments in Minnesota, USA to determine how host type and food deprivation affected the move- ment of late instars of the European gypsy moth Lymantria dispar (Lepidoptera: Erebidae), an invasive forest insect in North America. Gypsy moth larvae can feed on over 300 species of trees and shrubs. During outbreaks food availability to conspecifics can become severely restricted as developing instars consume in- creasing amounts of foliage. Larvae were raised on one of five foods: Quercus macrocarpa, Larix laricina, Acer platanoides, Acer saccharinum, or artificial diet. Subsets of fifth and sixth instar larvae were also de- prived of food for zero, 24, or 48 h. After the food deprivation period, late instar larvae were placed on a servosphere and their movement paths were recorded. Larvae raised on Q. macrocarpa, a preferred host, were unlikely to move unless starved. They moved farther the longer they were starved. In contrast, when larvae were raised on less preferred hosts, they were more likely to move without prior starvation. These results suggest that feeding on optimal hosts provides gypsy moth larvae J. T. Wittman (*) : B. H. Aukema Department ofEntomology, University ofMinnesota, 1980 Folwell Avenue, St. Paul, MN 55108, USA e-mail: wittm094@umn.edu with the energy and nutritional requirements to move more quickly to more food when there is none immedi- ately available. Keywords}
+      \field{issn}{08927553}
+      \field{journaltitle}{Journal of Insect Behavior}
+      \field{number}{1}
+      \field{title}{{Foliage Type and Deprivation Alters the Movement Behavior of Late Instar European Gypsy Moth Lymantria dispar (Lepidoptera: Erebidae)}}
+      \field{volume}{32}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{24\bibrangedash 37}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s10905-019-09711-2
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman, Aukema - 2019 - Foliage Type and Deprivation Alters the Movement Behavior of Late Instar European Gypsy Moth Lymantria dispar (.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1007/s10905-019-09711-2
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/s10905-019-09711-2
+      \endverb
+      \keyw{Foliage,Locomotion compensator,Lymantria dispar,Movement behavior,Servosphere,published}
+    \endentry
+    \entry{Hallinen2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f77b978807eb1ce56dcb14c25a0bf98a}{%
+           family={Hallinen},
+           familyi={H\bibinitperiod},
+           given={Marie\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
+           family={Wittman},
+           familyi={W\bibinitperiod},
+           given={Jacob\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=0ab604a13d92f4bee069b440b071e1b9}{%
+           family={Aukema},
+           familyi={A\bibinitperiod},
+           given={Brian\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{fullhash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{bibnamehash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{authorbibnamehash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{authornamehash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \strng{authorfullhash}{3fb4a97b16cf9d301f3534ebba53c978}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Entomology (In review)}
+      \field{title}{{Factors associated with diversity and distribution of buprestid prey captured by foraging Cerceris fumipennis (Hymenoptera: Crabronidae)}}
+      \field{year}{2020}
+      \true{nocite}
+      \keyw{review}
+    \endentry
     \entry{Short}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=f3b4a7a52dbc1a21c23259a07420ed29}{%
@@ -608,13 +905,16 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Agricultural and Forest Entomology}
       \field{title}{{Rail transport as a vector of emerald ash borer}}
-      \field{year}{2019}
+      \field{volume}{22}
+      \field{year}{2020}
       \true{nocite}
+      \field{pages}{92\bibrangedash 97}
+      \range{pages}{6}
       \verb{doi}
       \verb 10.1111/afe.12360
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Short et al. - 2019 - Rail transport as a vector of emerald ash borer.pdf:pdf
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Short et al. - 2020 - Rail transport as a vector of emerald ash borer.pdf:pdf
       \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/full/10.1111/afe.12360
@@ -622,61 +922,20 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/full/10.1111/afe.12360
       \endverb
-      \keyw{review}
-    \endentry
-    \entry{Stivers2019}{article}{}
-      \name{author}{3}{}{%
-        {{un=1,uniquepart=given,hash=fe615ab1fa800b99bd20c3b3374dd8cb}{%
-           family={Stivers},
-           familyi={S\bibinitperiod},
-           given={Emma\bibnamedelima K.},
-           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
-           family={Wittman},
-           familyi={W\bibinitperiod},
-           given={Jacob\bibnamedelima T.},
-           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=ebce9da3b1ddc80ba8a57ea278c2ed80}{%
-           family={Larsen},
-           familyi={L\bibinitperiod},
-           given={Kirk\bibnamedelima J.},
-           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{1009af99890f45129048ae2914356be1}
-      \strng{fullhash}{1009af99890f45129048ae2914356be1}
-      \strng{bibnamehash}{1009af99890f45129048ae2914356be1}
-      \strng{authorbibnamehash}{1009af99890f45129048ae2914356be1}
-      \strng{authornamehash}{1009af99890f45129048ae2914356be1}
-      \strng{authorfullhash}{1009af99890f45129048ae2914356be1}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of the Lepidopterists' Society}
-      \field{number}{4}
-      \field{title}{{A comparison of adult butterfly communities on remnant and planted prairies in northeast Iowa}}
-      \field{volume}{73}
-      \field{year}{2019}
-      \true{nocite}
       \keyw{published}
     \endentry
-    \entry{Wittman2018}{article}{}
+    \entry{Wittman}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
            family={Wittman},
            familyi={W\bibinitperiod},
-           given={Jacob\bibnamedelima T.},
+           given={Jacob\bibnamedelima T},
            giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=1}}%
         {{un=1,uniquepart=given,hash=0ab604a13d92f4bee069b440b071e1b9}{%
            family={Aukema},
            familyi={A\bibinitperiod},
-           given={Brian\bibnamedelima H.},
+           given={Brian\bibnamedelima H},
            giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
            givenun=1}}%
       }
@@ -686,104 +945,31 @@
       \strng{authorbibnamehash}{720084a8b9803def42cc16ed4c286845}
       \strng{authornamehash}{720084a8b9803def42cc16ed4c286845}
       \strng{authorfullhash}{720084a8b9803def42cc16ed4c286845}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The movement behavior ofinsects character- izes their ability to disperse, establish, compete, forage, seek mates, and ultimately reproduce. Understanding the movement of invasive insects is particularly impor- tant for developing management policies.We conducted laboratory experiments in Minnesota, USA to determine how host type and food deprivation affected the move- ment of late instars of the European gypsy moth Lymantria dispar (Lepidoptera: Erebidae), an invasive forest insect in North America. Gypsy moth larvae can feed on over 300 species of trees and shrubs. During outbreaks food availability to conspecifics can become severely restricted as developing instars consume in- creasing amounts of foliage. Larvae were raised on one of five foods: Quercus macrocarpa, Larix laricina, Acer platanoides, Acer saccharinum, or artificial diet. Subsets of fifth and sixth instar larvae were also de- prived of food for zero, 24, or 48 h. After the food deprivation period, late instar larvae were placed on a servosphere and their movement paths were recorded. Larvae raised on Q. macrocarpa, a preferred host, were unlikely to move unless starved. They moved farther the longer they were starved. In contrast, when larvae were raised on less preferred hosts, they were more likely to move without prior starvation. These results suggest that feeding on optimal hosts provides gypsy moth larvae J. T. Wittman (*) : B. H. Aukema Department ofEntomology, University ofMinnesota, 1980 Folwell Avenue, St. Paul, MN 55108, USA e-mail: wittm094@umn.edu with the energy and nutritional requirements to move more quickly to more food when there is none immedi- ately available. Keywords}
-      \field{issn}{08927553}
-      \field{journaltitle}{Journal of Insect Behavior}
-      \field{number}{1}
-      \field{title}{{Foliage Type and Deprivation Alters the Movement Behavior of Late Instar European Gypsy Moth Lymantria dispar (Lepidoptera: Erebidae)}}
-      \field{volume}{32}
-      \field{year}{2019}
-      \true{nocite}
-      \field{pages}{24\bibrangedash 37}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1007/s10905-019-09711-2
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman, Aukema - 2019 - Foliage Type and Deprivation Alters the Movement Behavior of Late Instar European Gypsy Moth Lymantria dispar (.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/article/10.1007/s10905-019-09711-2
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/article/10.1007/s10905-019-09711-2
-      \endverb
-      \keyw{Foliage,Locomotion compensator,Lymantria dispar,Movement behavior,Servosphere,published}
-    \endentry
-    \entry{Wittman2019}{article}{}
-      \name{author}{5}{}{%
-        {{un=1,uniquepart=given,hash=e54400eb2c2b2196baaffc0fea9ea7b8}{%
-           family={Wittman},
-           familyi={W\bibinitperiod},
-           given={Jacob\bibnamedelima T},
-           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=03ec6f1ee01ebfb14638b6c864d70ec4}{%
-           family={Nicoll},
-           familyi={N\bibinitperiod},
-           given={Rachael\bibnamedelima A},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4fa73bf95a7106d0aeda26743608d10b}{%
-           family={Myers},
-           familyi={M\bibinitperiod},
-           given={Scott\bibnamedelima W},
-           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=433a43c6adef1fb8b1c0f0a6ab131f24}{%
-           family={Chaloux},
-           familyi={C\bibinitperiod},
-           given={Paul\bibnamedelima H},
-           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=0ab604a13d92f4bee069b440b071e1b9}{%
-           family={Aukema},
-           familyi={A\bibinitperiod},
-           given={Brian\bibnamedelima H},
-           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{57a2b6f72c412bd28c15c25ece51d10f}
-      \strng{fullhash}{57a2b6f72c412bd28c15c25ece51d10f}
-      \strng{bibnamehash}{57a2b6f72c412bd28c15c25ece51d10f}
-      \strng{authorbibnamehash}{57a2b6f72c412bd28c15c25ece51d10f}
-      \strng{authornamehash}{57a2b6f72c412bd28c15c25ece51d10f}
-      \strng{authorfullhash}{57a2b6f72c412bd28c15c25ece51d10f}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The European gypsy moth, Lymantria dispar L., is an invasive insect in North America that feeds on over 300 species of trees and shrubs and occasionally causes extensive defoliation. One regulatory practice within quarantine zones to slow the spread of this insect recommends that wood products (e.g., logs, pulpwood) originating from quarantine areas are staged within 100 foot-radius buffer zones devoid of host vegetation before transport outside the quarantine boundary. Currently, there are little data underpinning the distance used. We conducted field experiments in Wisconsin to assess buffer zone efficacy in reducing risk of larval gypsy moth encroachment on wood staging areas. We released late-instar gypsy moth larvae in groups around the perimeter of a 100-ft radius zone and tracked their movements for 10-h periods using harmonic radar and tested whether host vegetation staged around the perimeter or food availability before release altered movement patterns. Three larvae moved over 300 ft in 10 h, but 93{\%} of larvae moved {<}100 ft total. The presence of host vegetation reduced the likelihood of larvae entering the buffer zone by 70{\%}. Food availability before release did not affect movement. Using these field data, we parameterized a Monte Carlo simulation model to evaluate risk of larvae crossing zones of different sizes. For zones {>}100 ft in radius, {<}4{\%} of larvae reached the center. This percentage decreased as zone size increased. Implications of these results for the regulatory practices of the gypsy moth quarantine are discussed.}
-      \field{issn}{0046-225X}
-      \field{journaltitle}{Environmental Entomology}
+      \field{journaltitle}{Journal of Insect Science}
       \field{number}{3}
-      \field{title}{{Characterizing and Simulating the Movement of Late-Instar Gypsy Moth (Lepidoptera: Erebidae) to Evaluate the Effectiveness of Regulatory Practices}}
-      \field{volume}{48}
-      \field{year}{2019}
+      \field{title}{{A guide and toolbox to replicability and open science in entomology}}
+      \field{volume}{20}
+      \field{year}{2020}
       \true{nocite}
-      \field{pages}{496\bibrangedash 505}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1093/ee/nvz025
-      \endverb
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
       \verb{file}
-      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman et al. - 2019 - Characterizing and Simulating the Movement of Late-Instar Gypsy Moth (Lepidoptera Erebidae) to Evaluate the E(2).pdf:pdf
+      \verb :C$\backslash$:/Users/wittm094/Documents/Mendeley Desktop/Wittman, Aukema - 2020 - A guide and toolbox to replicability and open science in entomology(2).pdf:pdf
       \endverb
       \verb{urlraw}
-      \verb https://academic.oup.com/ee/advance-article/doi/10.1093/ee/nvz025/5429494
+      \verb https://doi.org/10.1093/jisesa/ieaa036
       \endverb
       \verb{url}
-      \verb https://academic.oup.com/ee/advance-article/doi/10.1093/ee/nvz025/5429494
+      \verb https://doi.org/10.1093/jisesa/ieaa036
       \endverb
-      \keyw{published}
+      \keyw{review}
     \endentry
   \enddatalist
 \endrefsection
